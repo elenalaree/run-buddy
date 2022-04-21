@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    Padding: 0;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
@@ -14,6 +19,7 @@ body {
       font-size: 36px;
       color: #fce138;
       margin: 0;
+      display: inline;
   }
 
   header a {
@@ -23,4 +29,11 @@ body {
 
   header nav {
       float: right;
+  }
+  
+  header nav ul li {
+      display: inline;
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
   }
