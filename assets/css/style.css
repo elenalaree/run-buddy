@@ -31,6 +31,7 @@ body {
 
     header nav {
         float: right;
+        margin: 7px 0
     }
     
     header nav ul li {
@@ -116,6 +117,7 @@ body {
 
     .intro {
         text-align: center;
+        padding: 50px;
     }
     
     .intro p {
@@ -131,8 +133,13 @@ body {
     .steps {
         text-align: center;
         background: #fce138;
+        padding: 50px;
     }
-        
+    
+    .steps div {
+        margin-bottom: 80px;
+       
+    }
     .steps img {
         width: 15%;
         margin: 10px 0;
@@ -155,6 +162,7 @@ body {
 /*Meet the Trainers Section*/
 .trainers {
     text-align: center;
+    padding: 50px;
 }
 
 .trainer {
@@ -163,6 +171,7 @@ body {
     background: #024e76;
     color: #fce138;
     overflow: auto;
+    
 }
 
 .trainer img {
