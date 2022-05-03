@@ -44,14 +44,18 @@ body {
 
     .hero-form {
         height: 600px;
-        background-image: url(../images/hero-bg.jpg);
+        background-image: url(../images/flipped-hero-image.jpg);
         padding:60px;
         background-size: cover;
         background-position: center;
         position: relative;
     }
+    
+    .hero-cta {
+        
+    }
 
-    .hero-form div {
+    .form {
         width: 500px;
         background-color: #fce138;
         border: 5px solid #024e76;
