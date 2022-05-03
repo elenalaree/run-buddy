@@ -51,11 +51,11 @@ body {
         position: relative;
     }
     
-    .hero-cta {
-        
+    .hero-cta h1 {
+        color: #fce138;
     }
 
-    .form {
+    .form-box {
         width: 500px;
         background-color: #fce138;
         border: 5px solid #024e76;
@@ -81,7 +81,7 @@ body {
     }
 
     .form-input {
-        border: 1 px solid #024e76;
+        border: 1px solid #024e76;
         display: block;
         padding: 7px 15px;
         font-size: 16px;
@@ -254,16 +254,42 @@ body {
         
     }
 
+    .contact-us {
+        display: block;
+        margin: 10px 0;
+        border-radius: 7px;
+        padding:5px;
+        padding-left: 10px;
+        width: 95%;
+        background-color: lightgray;
+        border: none;
+        
+    }
+    .modify {
+       padding-bottom: 20px;
+    }
+
+
+    .contact button {
+        color:#024e76;
+        background-color: #fce138;
+        width: 95%;
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+        
+    }
+
 /*Footer Section*/
     footer {
-        background: #fce138;
+        background: #024e76;
         width: 100%;
         padding: 40px 35px;
     }
 
     footer h2 {
         display: inline;
-        color: #024e76;
+        color: #fce138;
         font-size: 30px;
         margin: 0;
     }
@@ -275,6 +301,9 @@ body {
     }
 
     footer a {
-        color: #024e76;
+        color: #fce138;
     }
 
+    footer p {
+        color:#fce138;
+    }
